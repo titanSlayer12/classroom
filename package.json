@@ -1,0 +1,44 @@
+{
+  "name": "classroom",
+  "version": "0.1.0",
+  "main": "src/main.js",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "electron": "^2.0.18",
+    "firebase": "^9.6.9",
+    "history": "^4.10.1",
+    "moment": "^2.29.1",
+    "rc-progress": "^2.6.1",
+    "react": "^16.14.0",
+    "react-datepicker": "^1.8.0",
+    "react-dom": "^16.14.0",
+    "react-modal": "^3.14.4",
+    "react-notification": "^6.8.5",
+    "react-particles-js": "^2.7.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.4",
+    "wait-on": "^2.1.2"
+  },
+  "scripts": {
+    "react-start": "react-scripts start",
+    "start": "concurrently \"npm run react-start\" \"wait-on http://localhost:3000/ && npm run electron-dev\"",
+    "electron-dev": "set DEV_URL=http://localhost:3000 && electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

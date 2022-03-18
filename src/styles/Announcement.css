@@ -1,0 +1,145 @@
+.announcement {
+	clear: both;
+	width: 1400px;
+	border-bottom: 1px solid #0060D7;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+
+.announcement-title {
+	color: white;
+	font-family: 'Nunito';
+	font-size: 22px;
+	text-decoration: underline;
+	margin: 5px 0px;
+	padding: 5px 10px;
+	word-wrap: break-word;
+}
+
+.announcement-description {
+	margin: 5px;
+	min-height: 75px;
+	padding: 5px;
+	font-family: 'Nunito';
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.edit-announcement-button {
+	cursor: pointer;
+	margin-bottom: 5px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	font-family: 'Nunito';
+	background-color: transparent;
+	color: #0060D7;
+	border: 1px solid #0060D7;
+	border-radius: 2px;
+	height: 30px;
+	width: 200px;
+	transition-duration: 0.7s;
+}
+
+.edit-announcement-button:hover {
+	background-color: #0060D7;
+	color: white;
+}
+
+.delete-announcement-button {
+	cursor: pointer;
+	margin: 2px;
+	border: none;
+	outline: none;
+	font-family: 'Nunito';
+	background-color: transparent;
+	color: #DC0000;
+	border: 1px solid #DC0000;
+	border-radius: 2px;
+	height: 30px;
+	width: 200px;
+	transition-duration: 0.7s;
+}
+
+.delete-announcement-button:hover {
+	background-color: #DC0000;
+	color: white;
+}
+
+.edit-announcement-modal {
+	margin: auto;
+	height: 530px;
+	width: 900px;
+	transform: translateY(10%);
+	background-color: white;
+	outline: none;
+	border: 1px solid black;
+}
+
+.edit-announcement-form {
+	font-family: 'Nunito';
+}
+
+.edit-announcement-form > div {
+	margin: 5px 15px;
+	padding: 5px;
+}
+
+.edit-announcement-form > textarea {
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-family: 'Nunito';
+	margin: 5px 15px;
+	padding: 5px;
+	resize: none;
+	outline: none;
+}
+
+.edit-announcement-form > textarea:focus {
+	border: 1px solid #0060D7;
+}
+
+.edit-announcement-title {
+	width: 850px;
+	height: 25px;
+	font-size: 15px;
+}
+
+.edit-announcement-description {
+	width: 850px;
+	min-height: 300px;
+	font-size: 15px;
+}
+
+.update-announcement-button, .close-modal-button {
+	cursor: pointer;
+	margin: 15px;
+	width: 25%;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	background-color: white;
+	font-family: 'Nunito';
+	transition-duration: 0.7s;
+}
+
+.update-announcement-button {
+	color: #0AA100;
+	border: 1px solid #0AA100;
+}
+
+.update-announcement-button:hover {
+	background-color: #0AA100;
+	color: white;
+}
+
+.close-modal-button {
+	color: #DC0000;
+	border: 1px solid #DC0000;
+}
+
+.close-modal-button:hover {
+	background-color: #DC0000;
+	color: white;
+}
